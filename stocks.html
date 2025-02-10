@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradingView Ticker</title>
+</head>
+<body>
+    <div class="tradingview-widget-container">
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [
+                { "proName": "NASDAQ:AAPL", "title": "Apple" },
+                { "proName": "NYSE:TSLA", "title": "Tesla" },
+                { "proName": "INDEX:DJI", "title": "Dow Jones" }
+            ],
+            "colorTheme": "light",
+            "isTransparent": false,
+            "displayMode": "regular",
+            "locale": "en"
+        }
+        </script>
+    </div>
+</body>
+</html>
